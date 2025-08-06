@@ -1,0 +1,11 @@
+Gobelin,30,50, Un monstre parfait pour les aventuriers amateurs
+Orc,50,80, Un monstre qui d'habitude chevauche une monture en tout temps
+Dragon,90,150, une créature aussi mythique que magnifique et dangereuse
+Troll,70,120, une mocheté immonde
+Squelette,40,60, un cadavre qui a laissé place a un monstre
+Sorcière,60,70, une beauté caché par sa laideur et son immondice
+Loup-garou,80,90, un animal mythique et dangereux
+Vampire,85,100, un suceur de sang invétéré
+Géant,100,200, un danger aussi grand que sa taille
+Serpent géant,75,95, une bête sans pitié qui peux tordre le cou de quiconque l'aperçoit
+Christophe Delory,999999,99999999, Un formateur qui ne peut perdre dans ce projet ou je prends un rapport

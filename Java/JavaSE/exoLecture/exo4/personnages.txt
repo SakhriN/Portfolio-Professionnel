@@ -1,0 +1,5 @@
+Bloup,2,22
+Nassim,100,100
+Magicarpe,1,1
+Jesus,42,36
+Adolf Hitler,84,29

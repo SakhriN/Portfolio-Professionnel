@@ -1,0 +1,9 @@
+Vous rencontrez un monstre dans la forêt., negatif,10,Vous les tuez sans effort., Ils vous tabassent sans repit.
+Un pont en ruines bloque votre chemin., negatif,5, Vous passez le pont avec des petits sauts., Vous vous cassez la gueule et perdez des points de vie.
+Une tempête vous oblige à chercher un abri., negatif,25, Vous trouvez un abri a temps., Vous vous faites souffler par la tempête.
+Une embuscade de voleurs vous surprend., negatif,10, Vous réussissez a les maitriser., Vous vous faites voler et tabasser.
+Vous tombez dans un piège dissimulé., negatif,5, Le piège ne vous fait aucun mal et vous le détruisez., Vous vous faites déchirer par le piège.
+Un cri au loin attire votre attention., negatif,10, Vous arrivez dans un marché et voyez que ce n'est pas si grave que cela., Vous tombez dans un piège et vous faites tabasser par des gitans.
+Vous êtes poursuivi par une meute de loups., negatif,10, Vous parvenez a les semer., Vous vous faites arracher par les loups et l'un d'entre eux vous pisse dessus pour marquer son territoire.
+Un labyrinthe obscur se dresse devant vous., negatif,5, Vous trouvez une boussole et vous sortez rapidement., Vous avez perdu 15 heures de votre vie a trouver la sortie qui était devant vous depuis tout le long.
+Vous avez l'impression d'avoir mal au coeur, negatif,999999, Tout va bien ce n'est qu'une fausse alerte., Vous faites une crise cardiaque foudroyante et mortelle.

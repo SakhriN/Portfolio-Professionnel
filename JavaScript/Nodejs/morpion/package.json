@@ -1,0 +1,14 @@
+{
+  "name": "morpion",
+  "version": "1.0.0",
+  "description": "morpion de fou furieux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "le best developpeur du monde",
+  "license": "ISC",
+  "dependencies": {
+    "readline": "^1.3.0"
+  }
+}

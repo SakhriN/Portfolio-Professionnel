@@ -1,0 +1,17 @@
+FROM node AS build
+WORKDIR /app
+
+COPY package*.json ./
+RUN npm i
+COPY . .
+RUN npm run build
+FROM nginx
+COPY --from=build /app/build /usr/share/nginx/html
+EXPOSE 80
+CMD ["nginx","-g","daemon off;"]
+
+# commande création image
+#docker build -t react-docker . --no-cache
+
+# commande pour lancer container
+# docker run --name docker-react -p 5555:80 -d react-docker

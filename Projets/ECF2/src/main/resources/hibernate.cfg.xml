@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+
+
+    <session-factory>
+        <mapping class="model.Classe"/>
+        <mapping class="model.Departement"/>
+        <mapping class="model.Enseignant"/>
+        <mapping class="model.Etudiant"/>
+        <mapping class="model.Matiere"/>
+        <mapping class="model.Note"/>
+        <mapping class="model.Classe"/>
+        <mapping class="model.EDT"/>
+    </session-factory>
+
+</hibernate-configuration>

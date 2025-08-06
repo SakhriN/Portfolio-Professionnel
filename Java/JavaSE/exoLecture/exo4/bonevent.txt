@@ -1,0 +1,8 @@
+Vous trouvez un coffre mystérieux., positif,10, Vous parvenez a ouvrir le coffre et recuperez une arme., Le coffre s'ouvre et vous voyez que le coffre n'était qu'une mimique.
+Vous trouvez une source magique qui régénère votre santé., positif,10, Vous vous reposez tranquillement dans la source magique., Vous vous rendez compte que cette source magique disparait.
+Vous rencontrez un marchand ambulant., positif,5, Il vous donne des objets car il a confiance en vous., Il vous demande de partir car il ne vous vendra rien.
+Un vieil homme mystérieux vous propose une énigme., positif,5, Vous réussissez l'énigme. Il vous dit que vous êtes l'élu et cela vous renforce dans votre égo., Il vous sodomise.
+Vous trouvez une arme légendaire enfouie dans la terre., positif,20, Vous gagnez une magnifique arme qui vous donne de l'attaque., Vous récupérez une arme rouillée.
+Un feu de camp abandonné contient des provisions., positif,10, Vous appréciez la nourriture qui vous donne des PV., La nourriture est périmé du coup vous vomissez.
+Vous découvrez une carte indiquant un trésor caché., positif,10, Vous trouvez le trésor grace a la carte., Vous vous êtes fait avoir il n y a rien.
+Vous trouvez Excalibur l'épée légendaire., positif,999999, Vous arrivez a sortir l'épée du sol., Vous n'êtes pas l'élu.

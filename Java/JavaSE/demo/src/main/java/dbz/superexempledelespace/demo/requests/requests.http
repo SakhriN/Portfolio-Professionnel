@@ -1,0 +1,48 @@
+###
+POST http://localhost:8080/api/books
+Content-Type: application/json
+
+{
+  "titre": "Le Livre de la Vie",
+  "datePublication": "2024-01-01",
+  "auteur": "Jerome Gobelet",
+  "categorie": "Fiction",
+  "prix": 19.99,
+  "prixNobel" : false
+}
+
+###
+POST http://localhost:8080/api/books
+Content-Type: application/json
+
+{
+"titre": "Le Temps des tempêtes",
+"datePublication": "2024-01-01",
+"auteur": "Nicolas Sarkozy",
+"categorie": "Depression",
+"prix": 199.99,
+"prixNobel" : true
+}
+
+###
+POST http://localhost:8080/api/books
+Content-Type: application/json
+
+{
+  "titre": "Mon amour envers les capybara",
+  "datePublication": "2012-12-21",
+  "auteur": "Nassim Sakhri",
+  "categorie": "Erotique",
+  "prix": 69.69,
+  "prixNobel" : true
+}
+
+###
+GET http://localhost:8080/api/books
+
+###
+DELETE http://localhost:8080/api/books?titre=Le%20Livre%20de%20la%20Vie
+
+###
+DELETE http://localhost:8080/api/books?titre=Le%20Temps%20des%20tempêtes
+

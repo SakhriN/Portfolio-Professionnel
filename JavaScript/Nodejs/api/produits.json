@@ -1,0 +1,58 @@
+{
+  "produits": [
+    {
+      "id": 1,
+      "titre": "Kiwi",
+      "prix": 19.99,
+      "stock": 100
+    },
+    {
+      "id": 2,
+      "titre": "Fraise",
+      "prix": 29.99,
+      "stock": 50
+    },
+    {
+      "id": 3,
+      "titre": "Pêche",
+      "prix": 19.99,
+      "stock": 100
+    },
+    {
+      "id": 4,
+      "titre": "PS5",
+      "prix": 29.99,
+      "stock": 50
+    },
+    {
+      "id": 5,
+      "titre": "PS4",
+      "prix": 19.99,
+      "stock": 100
+    },
+    {
+      "id": 6,
+      "titre": "Figurine Abella Danger",
+      "prix": 29.99,
+      "stock": 50
+    },
+    {
+      "id": 7,
+      "titre": "Samus Aran",
+      "prix": 19.99,
+      "stock": 100
+    },
+    {
+      "id": 8,
+      "titre": "Gode Realistik 15 inches",
+      "prix": 999999,
+      "stock": 12
+    },
+    {
+      "id": 9,
+      "titre": "Potalas",
+      "prix": 9999999999999,
+      "stock": 2
+    }
+  ]
+}

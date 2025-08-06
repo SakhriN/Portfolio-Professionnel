@@ -1,0 +1,25 @@
+FROM maven as builder
+
+WORKDIR /app
+
+COPY pom.xml .
+
+RUN mvn dependency:go-offline
+
+COPY src ./src
+
+RUN mvn package -DskipTests
+
+FROM openjdk:11
+
+COPY --from=builder /app/target/payment-service.jar .
+
+EXPOSE 9050
+
+CMD ["java", "-jar", "payment-service.jar"]
+
+# commande création image
+# docker build -t test-ecf-payment . --no-cache
+
+# commande pour lancer container
+# docker run --name payment-ecf-test -p 9050:9050 -d test-ecf-payment

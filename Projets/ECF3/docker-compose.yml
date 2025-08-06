@@ -1,0 +1,91 @@
+version: '3.8'
+
+services:
+  common-data-service:
+    build:
+      context: ./Server/common-data-service
+    ports:
+      - "9000:9000"
+    restart: always
+    depends_on:
+      - mysql
+      - redis
+    networks:
+      - ecf-port
+    environment:
+      DB_PORT: ${DB_PORT}
+      DB_HOST: mysql
+      REDIS_HOST: redis
+      REDIS_PASSWORD: ${REDIS_PASSWORD}
+      REDIS_PORT: ${REDIS_PORT}
+      PORT: ${COMMON_DATA_SERVICE_PORT}
+      ACTIVE_PROFILE: dev
+
+  payment-service:
+    build:
+      context: ./Server/payment-service
+    ports:
+      - "9050:9050"
+    restart: always
+    depends_on:
+      - mysql
+    environment:
+      DB_HOST: mysql
+      DB_PORT: ${DB_PORT}
+      PORT: ${PAYMENT_SERVICE_PORT}
+      ACTIVE_PROFILE: dev
+    networks:
+      - ecf-port
+
+  authentication-service:
+    build:
+      context: ./Server/authentication-service
+    restart: always
+    ports:
+      - "7000:7000"
+    environment:
+      DB_HOST: mysql
+      DB_PORT: ${DB_PORT}
+      PORT: ${AUTHENTICATION_SERVICE_PORT}
+      ACTIVE_PROFILE: dev
+    depends_on:
+      - mysql
+    networks:
+      - ecf-port
+
+  mysql:
+    image: mysql:latest
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: test
+      MYSQL_DATABASE: ecommerce_app_database
+      MYSQL_USER: mysqluser
+      MYSQL_PASSWORD: mypass
+    ports:
+      - "3307:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - ecf-port
+
+  redis:
+    image: redis:latest
+    command: /bin/sh -c "redis-server --requirepass $$REDIS_HOST_PASSWORD"
+    restart: always
+    ports:
+      - "6379:6379"
+    environment:
+      REDIS_HOST_PASSWORD: ${REDIS_PASSWORD}
+    volumes:
+      - redis:/data
+
+    networks:
+      - ecf-port
+
+networks:
+  ecf-port:
+    driver: bridge
+
+volumes:
+  mysql_data:
+  redis:

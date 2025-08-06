@@ -1,0 +1,34 @@
+{
+  "clients": [
+    {
+      "id": 127001,
+      "nom": "SAKHRI",
+      "prenom": "Nassim",
+      "telephone": "0674512642"
+    },
+    {
+      "id": 127002,
+      "nom": "Doe",
+      "prenom": "John",
+      "telephone": "1234567890"
+    },
+    {
+      "id": 127003,
+      "nom": "Smith",
+      "prenom": "Alice",
+      "telephone": "9876543210"
+    },
+    {
+      "id": 127004,
+      "nom": "Brown",
+      "prenom": "Bob",
+      "telephone": "5555555555"
+    },
+    {
+      "id": 127007,
+      "nom": "Black",
+      "prenom": "Goku",
+      "telephone": "999999999"
+    }
+  ]
+}

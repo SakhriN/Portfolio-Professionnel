@@ -1,0 +1,64 @@
+{
+  "commandes": [
+    {
+      "id": 1,
+      "client": 127001,
+      "produits": [
+        {
+          "idProduit": 1,
+          "quantite": 3
+        },
+        {
+          "idProduit": 2,
+          "quantite": 2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "client": 127002,
+      "produits": [
+        {
+          "idProduit": 3,
+          "quantite": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "client": 127004,
+      "produits": [
+        {
+          "idProduit": 3,
+          "quantite": 1
+        },
+        {
+          "idProduit": 5,
+          "quantite": 2
+        },
+        {
+          "idProduit": 6,
+          "quantite": 2
+        },
+        {
+          "idProduit": 7,
+          "quantite": 2
+        },
+        {
+          "idProduit": 8,
+          "quantite": 2
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "client": 127007,
+      "produits": [
+        {
+          "idProduit": 9,
+          "quantite": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+FROM maven as builder
+
+WORKDIR /app
+
+COPY pom.xml .
+
+RUN mvn dependency:go-offline
+
+COPY src ./src
+
+RUN mvn package -DskipTests
+
+FROM openjdk:11
+
+COPY --from=builder /app/target/authentication-service.jar .
+
+EXPOSE 7000
+
+CMD ["java", "-jar", "authentication-service.jar"]
+
+# commande création image
+# docker build -t test-ecf-authentication . --no-cache
+
+# commande pour lancer container
+# docker run --name authentication-ecf-test -p 7000:7000 -d test-ecf-authentication
