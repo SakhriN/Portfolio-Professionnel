@@ -1,4 +1,4 @@
-### Bonjour et bienvenue dans mon Portfolio, 
+# Bonjour et bienvenue dans mon Portfolio, 
 
 
 
@@ -9,5 +9,13 @@
 - JavaScript
 - TypeScript
 
+## Il y a aussi de la création de base de données via :
+
+- MySQL
+
+
+Et de la conteneurisation avec :
+
+- Docker 
 
   Il contient aussi des projets personnels de ma part pour m'améliorer en tout temps dans les langues que j'ai apprises.
